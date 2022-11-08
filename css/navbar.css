@@ -1,0 +1,16 @@
+.navbar {
+    background-color: rgba(238, 238, 238, 0.8) !important;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    font-weight: bold;
+  }
+  
+  .navbar-dark {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: black !important;
+  }
+  
+  .navbar-collapse, .navbar-nav, .nav-item {
+    color: inherit !important;
+  }
